@@ -23,7 +23,7 @@ Here's what I know, or think I know, about the Omlet setup:
   - Bottom pins operate the motor. Output is ~5.4v on 12v input.
   - Top pins connect to the crush switch.
 - It is believed that the controller has current sensing to detect objects being crushed / motor problems.
-- Light connector is Molex Mini-Fit Jr, [26-01-3114](https://www.molex.com/en-us/products/part-detail/26013114) or similar.
+- Light connector is Molex Mini-Fit Jr, [39-30-1020](https://www.molex.com/en-us/products/part-detail/39301020) or similar.
   - Output is ~5.4v on 12v input.
 
 My minimum viability requirements:
