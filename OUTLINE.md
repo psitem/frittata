@@ -19,10 +19,12 @@ Here's what I know, or think I know, about the Omlet setup:
 - The PCB has a coating so there isn't much that's readily probed.
 - The motor has no markings.
   - Someone has confirmed to me they run the motor at 5v. Their controller replacement is just dry contact relays and a 10Ω resistor to limit the current to 0.5A.
-- The door interface appears to be a Molex Mini-Fit Jr. Possibly the same as an ATX 4-pin.
-  - Two pins operate the motor.
-  - Two pins connect to the reed switch (crush sensor)
+- The door connector is a Molex Mini-Fit Jr, [39-30-1040](https://www.molex.com/en-us/products/part-detail/39301040) or similar. Same as an ATX 2x2-pin power connector.
+  - Bottom pins operate the motor. Output is ~5.4v on 12v input.
+  - Top pins connect to the crush switch.
 - It is believed that the controller has current sensing to detect objects being crushed / motor problems.
+- Light connector is Molex Mini-Fit Jr, [26-01-3114](https://www.molex.com/en-us/products/part-detail/26013114) or similar.
+  - Output is ~5.4v on 12v input.
 
 My minimum viability requirements:
 
